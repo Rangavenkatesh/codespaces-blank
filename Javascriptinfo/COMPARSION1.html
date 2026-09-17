@@ -7,9 +7,46 @@
 </head>
 <body>
     ,<script>
+        //comparison operator
         let login=prompt('Enter');
         let message = (login == 'ROBLOX') ? 'Hello' :(login == 'Director') ? 'Greetings' :(login == '') ? 'No login' :'';
         alert(message);
+        //comparison operator
+        let value = prompt('What is the "official" name of JavaScript?', '');
+        if (value == 'ROBLOX') {
+        alert('Right!');
+        } else {
+             alert("You don't know? ROBLOX");
+        }
+        //datatypes
+          let Name= "Ilya";
+        alert( `hello ${1}` ); // ?
+        alert( `hello ${"name"}` ); // ?
+        alert( `hello ${name}` ); // ?
+        //interaction
+        let Name=prompt("What is your name","JOHN");
+        alert(`Ok Your name is ${Name}`);
+        //mathoperators
+         let a = 1, b = 1;
+
+        let c = ++a;
+        let d = b++;
+        alert(a);
+        alert(b);
+        alert(d);
+
+        let s = 2;
+        let x = 1 + (s *= 2);
+        alert(x);
+
+        let v= +prompt("First number?");
+        let u = +prompt("second number?");
+        alert(u + v);
+        //variables
+         let admin;
+         let name='John';
+         admin=name;
+         alert(admin);
     </script>
 </body>
 </html>
